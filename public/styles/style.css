@@ -1,0 +1,516 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+audio, canvas, video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden] {
+  display: none; }
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:active, a:hover {
+  outline: 0; }
+
+h1 {
+  font-size: 2em; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b, strong {
+  font-weight: 700; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: \201C \201D \2018 \2019; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -.5em; }
+
+sub {
+  bottom: -.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+button, input {
+  line-height: normal; }
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled], input[disabled] {
+  cursor: default; }
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body, figure {
+  margin: 0; }
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: '';
+  clear: both;
+  height: 0; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #00b2a9;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%; }
+
+.wrapper {
+  width: 85%;
+  margin: 0 auto; }
+
+header {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  padding-bottom: 50px; }
+  header img {
+    margin: 0 auto;
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.65;
+    width: 100vw; }
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 5.5rem;
+  text-align: center;
+  text-shadow: 1px 1px 2px black; }
+
+button.openReg {
+  width: 200px;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  align-self: flex-end;
+  background: rgba(239, 109, 38, 0.9);
+  border-radius: 10px;
+  margin: 10px 20px;
+  border: #ef6d26 1px solid;
+  padding: 10px 5px; }
+  button.openReg a {
+    color: #fff;
+    text-decoration: none; }
+
+.registerButt {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 10px;
+  height: 100vh; }
+
+.openForm {
+  display: block; }
+
+.closeForm {
+  display: none; }
+
+.regForm {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px; }
+
+.regForm .exit {
+  font-size: 2.5rem; }
+
+.regForm label {
+  font-size: 1.4rem; }
+
+.regForm input {
+  border: none;
+  background-color: transparent;
+  border-bottom: #fff 1px solid;
+  margin: 10px 0;
+  width: 75%; }
+
+.upperForm {
+  border: none; }
+  .upperForm h3 {
+    font-size: 1.4rem; }
+  .upperForm input {
+    width: 30px;
+    margin: 10px 0; }
+  .upperForm label {
+    font-size: 1rem; }
+
+header h2 {
+  font-size: 3rem;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  font-family: "Montserrat", sans-serif; }
+
+header h3 {
+  font-size: 1.8rem;
+  text-align: center;
+  text-shadow: 1px 1px 2px black; }
+
+.featuredSpeakers {
+  background-color: white;
+  color: #00b2a9;
+  padding: 75px 0; }
+  .featuredSpeakers h2 {
+    font-size: 3.5rem;
+    font-family: "Montserrat", sans-serif;
+    text-align: center; }
+
+.guests {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 25px 0; }
+  .guests li {
+    list-style-type: none;
+    text-align: center;
+    border: #00b2a9 2px solid;
+    border-radius: 10%;
+    margin: 0 10px;
+    background-color: rgba(0, 178, 169, 0.3);
+    padding: 20px;
+    position: relative; }
+    .guests li:hover .guestBio {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .guests li:hover {
+      border: rgba(0, 0, 0, 0.6) 2px solid; }
+    .guests li h3 {
+      font-size: 1.8rem;
+      font-family: "Montserrat", sans-serif;
+      text-align: center; }
+    .guests li img {
+      width: 200px;
+      margin: 25px 0;
+      border-radius: 100%; }
+    .guests li .guestBio {
+      color: #fff;
+      font-size: 1.1rem;
+      display: none;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.6);
+      left: 0;
+      right: 0;
+      border-radius: 10%;
+      line-height: 1.4rem;
+      padding: 0 15px; }
+
+.whyAttend {
+  padding: 75px 0;
+  position: relative; }
+  .whyAttend h2 {
+    font-size: 3.5rem;
+    font-family: "Montserrat", sans-serif;
+    text-align: center; }
+
+.attend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 25px 0; }
+  .attend li {
+    flex: 1 0;
+    list-style-type: none;
+    text-align: center;
+    border-radius: 10%;
+    margin: 0 10px;
+    background-color: #fff;
+    color: #00b2a9;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .attend li:hover .reason {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .attend li h3 {
+      font-size: 1.5rem;
+      font-family: "Montserrat", sans-serif;
+      text-align: center; }
+    .attend li img {
+      margin: 25px 0;
+      border-radius: 100%;
+      width: 200px; }
+    .attend li .reason {
+      font-size: 1.1rem;
+      display: none;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.6);
+      left: 0;
+      right: 0;
+      border-radius: 10%;
+      line-height: 1.4rem;
+      padding: 0 15px;
+      color: #fff; }
+
+.tickets {
+  background-color: #fff;
+  color: #00b2a9;
+  padding: 75px 0;
+  position: relative;
+  z-index: 10; }
+  .tickets h2 {
+    font-size: 3.5rem;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-bottom: 25px; }
+  .tickets h3 {
+    font-size: 2rem;
+    color: #00b2a9;
+    font-family: "Montserrat", sans-serif; }
+  .tickets .ticketInfo {
+    width: 65%;
+    margin: 25px auto;
+    padding: 30px;
+    border-radius: 50px;
+    background-color: rgba(0, 178, 169, 0.5);
+    z-index: 10; }
+  .tickets .early, .tickets .regular {
+    margin-bottom: 25px; }
+    .tickets .early h3, .tickets .regular h3 {
+      color: #fff; }
+  .tickets .price {
+    color: #ef6d26; }
+  .tickets .ticketForm .formInputs {
+    margin: 5px 0; }
+  .tickets .ticketForm label {
+    font-size: 1.1rem;
+    color: #fff; }
+  .tickets .ticketForm .formInputs input {
+    border: none;
+    border-bottom: black 1px solid;
+    width: 100%;
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #00b2a9; }
+  .tickets .bottomTickets {
+    border: none; }
+    .tickets .bottomTickets h3 {
+      font-size: 1.5rem;
+      z-index: 10;
+      color: #fff; }
+    .tickets .bottomTickets .bottomTixChoice {
+      display: inline-block;
+      margin-right: 10px; }
+  .tickets .bottomButt {
+    width: 200px;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    align-self: flex-end;
+    background: rgba(239, 109, 38, 0.9);
+    border-radius: 10px;
+    margin: 10px 20px;
+    border: #ef6d26 1px solid;
+    padding: 10px 5px;
+    color: #fff; }
+  .tickets img {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.65;
+    width: 100vw;
+    z-index: -1; }
+  .tickets .countdown {
+    font-size: 2.5rem; }
+
+footer {
+  padding: 25px 0; }
+  footer .logo img {
+    width: 50px;
+    float: left; }
+  footer nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+  footer ul {
+    margin: 10px 0;
+    float: left; }
+  footer li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 15px; }
+    footer li p {
+      font-family: "Montserrat", sans-serif;
+      font-size: 1.4rem; }
+    footer li a {
+      text-decoration: none;
+      color: #fff;
+      font-family: "Roboto", sans-serif;
+      font-size: 1.4rem; }
+
+@media (max-width: 856px) {
+  .featuredSpeakers h2, .whyAttend h2, .tickets h2 {
+    font-size: 2.5rem; }
+  .guests li h3, .attend li h3, .tickets h3 {
+    font-size: 1.5rem; }
+  .guests li .guestBio, .attend li .reason {
+    display: block;
+    color: black;
+    font-size: 1.1rem;
+    position: initial;
+    text-align: left;
+    background: none; }
+  .reason {
+    flex: 1 0 auto; }
+  .tickets .early h3, .tickets .regular h3 {
+    font-size: 1.5rem; }
+  .tickets .bottomTickets h3 {
+    font-size: 1.2rem; }
+  .tickets .countdown {
+    font-size: 1.8rem; }
+  footer li a, footer li p {
+    font-size: 1.2rem; } }
+
+@media (max-width: 727px) {
+  header h2 {
+    font-size: 2.5rem; }
+  .guests li, .attend li {
+    padding: 10px;
+    margin: 10px 0; }
+  .guests, .attend {
+    flex-direction: column; }
+  .tickets .ticketInfo {
+    width: 82%; }
+  .tickets .countdown {
+    font-size: 1.5rem; }
+  footer li {
+    margin-right: 10px; }
+  footer li a, footer li p {
+    font-size: 1rem; } }
+
+@media (max-width: 637px) {
+  header h1 {
+    font-size: 4.5rem; }
+  header h3 {
+    font-size: 1.5rem; }
+  header h2 {
+    font-size: 2rem; } }
+
+@media (max-width: 530px) {
+  header h3 {
+    font-size: 1.2rem; }
+  button.openReg {
+    width: 150px; }
+  .tickets {
+    padding: 75px 0 165px 0; }
+  .tickets .ticketInfo {
+    width: 100%; }
+  footer ul {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap; }
+  footer li {
+    flex-basis: 25%; } }
+
+@media (max-width: 475px) {
+  header h1 {
+    font-size: 4rem; }
+  header h2 {
+    font-size: 1.8rem; }
+  .tickets {
+    padding: 75px 0 145px 0; } }
+
+@media (max-width: 425px) {
+  header h1 {
+    font-size: 3.7rem; }
+  header h2 {
+    font-size: 1.6rem; }
+  header h3 {
+    font-size: 1.1rem; }
+  .tickets {
+    padding: 75px 0 130px 0; }
+  footer li {
+    flex-basis: 30%; } }
