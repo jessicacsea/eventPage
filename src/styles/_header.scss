@@ -1,0 +1,97 @@
+header {
+  min-height: 70vh;
+  // border: red 1px solid;
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  padding-bottom: 50px;
+  img {
+    margin: 0 auto;
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.65;
+    width: 100vw;
+  }
+}
+h1 {
+  font-family: $heading;
+  font-size: 5.5rem;
+  text-align: center; 
+  text-shadow: 1px 1px 2px black;
+}
+button.openReg {
+  width: 200px;
+  font-size: 1rem;
+  font-family: $heading;
+  align-self: flex-end;
+  background: rgba(239, 109, 38, 0.9);
+  border-radius: 10px;
+  margin: 10px 20px;
+  border: $buttonColor 1px solid;
+  padding: 10px 5px;
+  a {
+    color: $white;
+    text-decoration: none;
+  }
+}
+.registerButt {
+  position: absolute; 
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 10px;
+  height: 100vh;
+}
+.openForm {
+  display: block;
+}
+.closeForm {
+  display: none;
+}
+.regForm {
+  background: rgba(0,0,0,0.4);
+  padding: 20px;
+  border-radius: 10px;
+}
+.regForm .exit {
+  font-size: 2.5rem;
+}
+.regForm label {
+  font-size: 1.4rem;
+}
+.regForm input {
+  border: none;
+  background-color: transparent;
+  border-bottom: $white 1px solid;
+  margin: 10px 0;
+  width: 75%;
+}
+.upperForm {
+  border: none;
+  h3 {
+    font-size: 1.4rem;
+  }
+  input {
+    width: 30px;
+    margin: 10px 0;
+  }
+  label {
+    font-size: 1rem;
+  }
+}
+
+header h2 {
+  font-size: 3rem;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  font-family: $heading;
+}
+
+header h3 {
+  font-size: 1.8rem;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+}

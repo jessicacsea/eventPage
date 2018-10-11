@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="public/styles/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+    <title>Loopio's User Conference</title>
+</head>
+<body>
+    <header>
+        <button class="openReg"><a href="#tix">Register Here!</a></button>
+        <h1>Loopio's User Conference</h1>
+        <h2>The Learning Event of the Year</h2>
+        <h3>June 12 - 13, 2019</h3>
+        <h3>Roy Thompson Hall, 60 Simcoe Street, Toronto ON</h3>
+        <img src="./src/assets/header.png" alt="">
+    </header>
+
+    <section class="featuredSpeakers">
+        <div class="wrapper">
+            <h2>With talks from</h2>
+            <ul class="guests">
+                <li>
+                    <h3>First and Last Name</h3>
+                    <img src="https://fillmurray.com/g/200/200" alt="portrait of presenter number 1">
+                    <div class="guestBio">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id saepe alias quaerat veritatis!</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>First and Last Name</h3>
+                    <img src="https://fillmurray.com/g/200/200" alt="portrait of presenter number 2">
+                    <div class="guestBio">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id saepe alias quaerat veritatis!</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>First and Last Name</h3>
+                    <img src="https://fillmurray.com/g/200/200" alt="portrait of presenter number 3">
+                    <div class="guestBio">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id saepe alias quaerat veritatis!</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="whyAttend">
+        <div class="wrapper">
+            <h2>Why Attend?</h2>
+            <ul class="attend">
+                <li>
+                    <h3>Learn from Thought Leaders</h3>
+                    <img src="https://fillmurray.com/g/200/200" alt="">
+                    <div class="reason">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt doloremque iste tempora quae numquam.</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Take your Response process to the next level</h3>
+                    <img src="https://fillmurray.com/g/200/200" alt="">                
+                    <div class="reason">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt doloremque iste tempora quae numquam.</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Network with your Peers</h3>
+                    <img src="https://fillmurray.com/g/200/200" alt="">
+                    <div class="reason">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt doloremque iste tempora quae numquam.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="tickets" id="tix">
+        <div class="wrapper">
+            <h2>Ticket Details</h2>
+            <h3>Now that you're excited, here's what you need to take to your boss!</h3>
+            <div class="ticketInfo">
+                <div class="early">
+                    <h3>Early Bird (until December 31st): <span class="price">$599</span></h3>
+                </div>
+                <div class="regular">
+                    <h3>Regular Conference Pass: <span class="price">$899</span></h3>
+                </div>
+                <form class="ticketForm">
+                    <div class="formInputs">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+                    <div class="formInputs">
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="mail" name="user_mail">
+                    </div>
+                    <div class="formInputs">
+                        <label for="company">Company:</label>
+                        <input type="comp" id="company" name="user_company">
+                    </div>
+                    <fieldset class="bottomTickets">
+                        <h3>Number of tickets</h3>
+                        <div class="bottomTixChoice">
+                            <input type="radio" id="oneBott" name="ticketsBottom" value="one" />
+                            <label for="oneBott">One</label>
+                        </div>
+                        <div class="bottomTixChoice">
+                            <input type="radio" id="twoBott" name="ticketsBottom" value="two" checked />
+                            <label for="twoBott">Two</label>
+                        </div>
+                        <div class="bottomTixChoice">
+                            <input type="radio" id="threeBott" name="ticketsBottom" value="three" />
+                            <label for="threeBott">Three</label>
+                        </div>
+                        <div class="bottomTixChoice">
+                            <input type="radio" id="fourBott" name="ticketsBottom" value="four" />
+                            <label for="fourBott">Four</label>
+                        </div>
+                    </fieldset>
+                    <button class="bottomButt" type="submit">Sign Me Up!</button>
+                </form>
+            </div>
+    
+            <h2 class="countdown">The countdown is on! Get your tickets now!</h2>
+        </div>
+        <img src="./src/assets/why.png" alt="">
+    </section>
+
+    <footer class="wrapper clearfix">
+        <div class="logo">
+            <img src="./src/assets/loopiologo.png" alt="Loopio Logo">
+        </div>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li><p>Loopio</p></li>
+                    <li><a href="https://www.loopio.com/"><p>Home</p></a></li>
+                    <li><a href="https://www.loopio.com/about"><p>About</p></a></li>
+                    <li><a href="https://www.loopio.com/careers"><p>Careers</p></a></li>
+                    <li><a href="https://www.loopio.com/contact"><p>Contact</p></a></li>
+                    <li><a href=""><p>1.844.456.6746</p></a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="public/scripts/app.js"></script>
+</body>
+</html>

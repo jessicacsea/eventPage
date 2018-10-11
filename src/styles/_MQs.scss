@@ -1,0 +1,119 @@
+@media (max-width: 856px) {
+  .featuredSpeakers h2, .whyAttend h2, .tickets h2 {
+    font-size: 2.5rem;
+  }
+  .guests li h3, .attend li h3, .tickets h3 {
+    font-size: 1.5rem;
+  }
+  .guests li .guestBio, .attend li .reason {
+    display: block;
+    color: black;
+    font-size: 1.1rem;
+    position: initial;
+    text-align: left;
+    background: none;
+  }
+  .reason {
+    flex: 1 0 auto;
+  }
+  .tickets .early h3, .tickets .regular h3 {
+    font-size: 1.5rem;
+  }
+  .tickets .bottomTickets h3 {
+    font-size: 1.2rem;
+  }
+  .tickets .countdown {
+    font-size: 1.8rem;
+  }
+  footer li a, footer li p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 727px) {
+  header h2 {
+    font-size: 2.5rem;
+  }
+  .guests li, .attend li {
+    padding: 10px;
+    margin: 10px 0;
+  }
+  .guests, .attend {
+    flex-direction: column;
+  }
+  .tickets .ticketInfo {
+    width: 82%;
+  }
+  .tickets .countdown {
+    font-size: 1.5rem;
+  }
+  footer li {
+    margin-right: 10px;
+  }
+  footer li a, footer li p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 637px) {
+  header h1 {
+    font-size: 4.5rem;
+  }
+  header h3 {
+    font-size: 1.5rem;
+  }
+  header h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 530px) {
+  header h3 {
+    font-size: 1.2rem;
+  }
+  button.openReg {
+    width: 150px;
+  }
+  .tickets {
+    padding: 75px 0 165px 0;
+  }
+  .tickets .ticketInfo {
+    width: 100%;
+  }
+  footer ul {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer li {
+    flex-basis: 25%;
+  }
+}
+@media (max-width: 475px) {
+  header h1 {
+    font-size: 4rem;
+  }
+  header h2 {
+    font-size: 1.8rem;
+  }
+  .tickets {
+    padding: 75px 0 145px 0;
+  }
+}
+@media (max-width: 425px) {
+  header h1 {
+    font-size: 3.7rem;
+  }
+  header h2 {
+    font-size: 1.6rem;
+  }
+  header h3 {
+    font-size: 1.1rem;
+  }
+  .tickets {
+    padding: 75px 0 130px 0;
+  }
+  footer li {
+    flex-basis: 30%;
+  }
+}

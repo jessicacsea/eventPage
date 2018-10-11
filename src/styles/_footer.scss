@@ -1,0 +1,32 @@
+footer {
+  padding: 25px 0;
+  .logo img {
+    width: 50px;
+    float: left;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  ul {
+    margin: 10px 0;
+    float: left;
+  }
+  li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 15px;
+    p {
+      font-family: $heading;
+      font-size: 1.4rem;
+    }
+    a {
+      text-decoration: none; 
+      color: $white;
+      font-family: $body;
+      font-size: 1.4rem;
+    }
+  }
+}

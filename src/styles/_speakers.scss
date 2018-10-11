@@ -1,0 +1,60 @@
+.featuredSpeakers {
+  background-color: white;
+  color: $blue;
+  // border: 2px yellow solid;
+  padding: 75px 0;
+  h2 {
+    font-size: 3.5rem;
+    font-family: $heading;
+    text-align: center;
+  }
+}
+.guests {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 25px 0;
+  li {
+    list-style-type: none;
+    text-align: center;
+    border: $blue 2px solid;
+    border-radius: 10%;
+    margin: 0 10px;
+    background-color: rgba(0, 178, 169, 0.3);
+    padding: 20px;
+    position: relative;
+    &:hover .guestBio {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &:hover {
+      border: rgba(0,0,0,0.6) 2px solid;
+    }
+    h3 {
+      font-size: 1.8rem;
+      font-family: $heading;
+      text-align: center;
+    }
+    img {
+      width: 200px;
+      margin: 25px 0;
+      border-radius: 100%;
+    }
+    .guestBio {
+      color: $white;
+      font-size: 1.1rem;
+      display: none;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      background-color: rgba(0,0,0,0.6);
+      left: 0;
+      right: 0;
+      border-radius: 10%;
+      line-height: 1.4rem;
+      padding: 0 15px;
+    }
+  }
+}
+
